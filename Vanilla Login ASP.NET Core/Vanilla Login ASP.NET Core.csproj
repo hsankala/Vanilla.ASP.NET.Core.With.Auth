@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Vanilla_Login_ASP.NET_Core-211B4E14-1F6F-4090-BE73-3FAD96CB111F</UserSecretsId>
+    <RootNamespace>Vanilla_Login_ASP.NET_Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
+    <PackageReference Include="WestWind.AspnetCore.LiveReload" Version="0.2.5" />
+  </ItemGroup>
+
+</Project>
